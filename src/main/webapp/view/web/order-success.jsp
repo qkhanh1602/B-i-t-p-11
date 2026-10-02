@@ -101,8 +101,8 @@
                 <div class="col-md-4">
                     <div class="p-3 bg-light rounded border h-100">
                         <div class="text-secondary small fw-semibold mb-1">Trạng thái đơn hàng:</div>
-                        <span class="badge bg-warning text-dark fs-6">
-                            <i class="bi bi-truck me-1"></i>${order.orderStatus}
+                        <span class="badge ${order.statusBadgeClass} fs-6 shadow-sm">
+                            <i class="bi ${order.statusIconClass} me-1"></i>${order.orderStatus}
                         </span>
                         <div class="text-muted small mt-1">Đang chuẩn bị gói hàng</div>
                     </div>

@@ -47,6 +47,11 @@
                             </a>
                         </li>
                         <li class="nav-item mb-1">
+                            <a class="nav-link text-dark fw-semibold rounded px-3 py-2" href="${pageContext.request.contextPath}/admin/orders">
+                                <i class="bi bi-card-checklist me-2 text-primary"></i>Quản lý Đơn hàng
+                            </a>
+                        </li>
+                        <li class="nav-item mb-1">
                             <a class="nav-link text-secondary px-3 py-2" href="${pageContext.request.contextPath}/home" target="_blank">
                                 <i class="bi bi-box-arrow-up-right me-2"></i>Trang Người Dùng
                             </a>

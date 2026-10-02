@@ -16,6 +16,10 @@
                     <i class="bi bi-collection-play me-1"></i>Quản lý Videos
                 </a>
                 <span class="text-secondary">|</span>
+                <a class="nav-link text-white-50 small hover-white" href="${pageContext.request.contextPath}/admin/orders">
+                    <i class="bi bi-card-checklist me-1"></i>Quản lý Đơn hàng
+                </a>
+                <span class="text-secondary">|</span>
                 <a class="nav-link text-white-50 small hover-white" href="${pageContext.request.contextPath}/home" target="_blank">
                     <i class="bi bi-box-arrow-up-right me-1"></i>Trang User
                 </a>
